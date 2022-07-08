@@ -68,3 +68,9 @@ function resetBoard() {
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
 });
+
+//botão que reinicia o jogo
+let btnReiniciar = document.querySelector("#botao-reiniciar");
+btnReiniciar.addEventListener('click',function(){
+    location.reload();
+});
