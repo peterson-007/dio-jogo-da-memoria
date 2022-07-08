@@ -58,3 +58,9 @@ body {
 .card.flip {
     transform: rotateY(180deg);
 }
+
+#botao-reiniciar{
+    width: 80px;
+    height: 50px;
+    box-shadow: 3px 3px;    
+}
